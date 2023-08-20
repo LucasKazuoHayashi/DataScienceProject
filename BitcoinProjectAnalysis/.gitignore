@@ -1,0 +1,24 @@
+# Arquivos temporários
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais (se você estiver usando venv, por exemplo)
+venv/
+env/
+ENV/
+
+# Arquivos gerados por IDEs ou editores
+.idea/
+.vscode/
+
+# Logs e saídas
+*.log
+
+# Arquivos de configuração de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração do PyCharm
+*.iml
+.idea_modules/

@@ -3,11 +3,13 @@ import candlestickChart as candChart
 
 def execute():
     print("Criando gráfico com histórico de 5 anos")
-    histChart.createHistoryGraph();
+    histChart.createHistoryGraph()
     
     print("Finalizado")
     print("Criando gráfico Candlestick com histórico de 30 dias")
     
-    candChart.createCandlestickChart();
+    candChart.createCandlestickChart()
     
     print("Fim")
+
+execute()    

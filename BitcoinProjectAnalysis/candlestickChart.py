@@ -4,10 +4,10 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 def createCandlestickChart():
-    bitcoinData = data.getCollectionData()
+    dfBitCoin = data.getCollectionData()
     
     # Criando o gráfico de candlestick dos últimos 30 dias
-    data_last_month = data.last('30D')
+    data_last_month = dfBitCoin.last('30D')
     # Definindo os dados OHLC (Open, High, Low, Close)
     ohlc = data_last_month[['time_open', 'price_open', 'price_high', 'price_low', 'price_close']].copy()
     # Ajustando o índice para ser do tipo datetime
